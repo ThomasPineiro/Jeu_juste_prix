@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Juste Prix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/knacss.css" />
+</head>
+
+<body>
+    <section class="autogrid" id="teaser">
+        <h1>Une mission</h1>
+        <h2>Trouver le chiffre mystère</h2>
+        <h1>3 essais</h1>
+        <h2>Serez vous à la hauteur ?</h2>
+    </section>
+    <section class="autogrid" id="playzone">
+        <input type="number" min="0" max="10" placeholder="A toi d'jouer !" id="champ_reponse">
+        <button id="bouton">Tenter ma chance !</button>
+        <div id="plus">C'est plus !</div>
+        <div id="moins">C'est moins !</div>
+        <div id="win">
+            Bien joué ! T'es trop fort comme Vincent woaw ! Le chiffre à trouver était : 
+            <p class="resultat"></p>
+            <button class="reload">Rejouer</button>
+        </div>
+        <div id="lose">
+            Dommage ! Le chiffre à trouver était : 
+            <p class="resultat"></p>
+            <button class="reload">Rejouer</button>
+        </div>
+    </section>
+    <section class="autogrid" id="coeurs">
+        <img src="css/coeur.png" id="coeur1">
+        <img src="css/coeur.png" id="coeur2">
+        <img src="css/coeur.png" id="coeur3">
+    </section>
+    <img src="css/dab.gif" id="winner">
+    <script src="javascript/jquery-3.2.1.js"></script>
+    <script src="javascript/js.js"></script>
+</body>
+</html

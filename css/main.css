@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url("az.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -10%;
+    background-color: blueviolet;
+}
+
+div
+{
+    color: white;
+}
+
+#teaser
+{
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+h1, h2
+{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+#playzone 
+{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#bouton
+{
+    width: 10em;
+}
+
+#coeurs 
+{
+    margin-top: 9%;
+    margin-left: 10%;
+}
+
+#winner 
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 50%;
+}
