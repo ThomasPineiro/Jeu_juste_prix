@@ -7,6 +7,8 @@ musique.volume=0.5;
 musique.autoPlay=false;
 musique.preLoad=true;  
 
+console.log(chiffre_mystere);
+
 //On cache les divs que l'on ne veut pas voir
 $('#scene_2, #scene_3').toggle();
 
