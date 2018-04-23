@@ -1,0 +1,30 @@
+body
+{
+    background-color: #00C5CD;
+}
+
+h4,p
+{
+    /* color: white; */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#img_scene_2
+{
+    height: 50vh;
+}
+
+#playzone 
+{
+    height: 30vh;
+}
+
+.img_mamie
+{
+    height: 50vh;
+}
+
+#coeurs
+{
+    height: 50vh;
+}
